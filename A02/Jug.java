@@ -1,14 +1,33 @@
-public class Jug
-{
-   public static void main(String args[])
-   {
-      // you can use this to test your class
-      // but this will not be used by the grader...
-   }
-   
-   // state...
+public class Jug {
+  private String liquidType;
+  private int gallons;
 
-   // constructors...
+  // constructors
+  
+  public Jug() {
+    liquidType = "water";
+    gallons = 0;
+  }
+  public Jug(String type, int gal) {
+    liquidType = type;
+    gallons = gal;
+  }
 
-   // behaviors...   
+  // setters/getters
+  
+  public void setGallons(int gal) {
+    gallons = gal;
+  }
+  public int getGallons() {
+    return gallons;
+  }
+  public String getLiquidType() {
+    return liquidType;
+  }
+
+  // other methods
+
+  public boolean isEmpty() {
+    return gallons == 0;
+  }
 }
