@@ -5,7 +5,7 @@ public class Chia {
     mood = "Happy";
   }
 
-  public string getMood () {
+  public String getMood () {
     return mood;
   }
 
