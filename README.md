@@ -4,3 +4,4 @@ This is my (Aris Yu's) Java portfolio for the course CSCI328 - Object Oriented D
 * Assignment 1: Setting up Replit and Git integration. Basic shell usage.
 * Assignment 2: Modification of Course.java for practice with ArrayLists and simple methods. Creation of Jug.java for practice with classes.
 * Assignment 3: Creation of Chia.java as further class practice.
+* Practice 1: Implementation of Car.java and Wheel.java according to given specifications.
