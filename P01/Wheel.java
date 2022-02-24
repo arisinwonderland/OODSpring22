@@ -5,6 +5,8 @@ public class Wheel {
    // behavior...
    public Wheel(int pressure) {
      m_pressure = pressure;
+     if (m_pressure < 0)
+       m_pressure = 0;
    }
    
    public void setPressure(int pressure) {
