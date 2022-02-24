@@ -23,13 +23,13 @@ public class Car
 
    public void fillTires() {
      m_frontLeft.setPressure(30);
-     m_frontLeft.setPressure(30);
      m_frontRight.setPressure(30);
      m_backLeft.setPressure(30);
+     m_backRight.setPressure(30);
    }
    
    public String toString() {
-     return String.format("Car (FR: Pressure = %s, FL: Pressure = %s, BR: Pressure = %s, BL: Pressure = %s)",m_frontRight,m_frontLeft,m_backRight,m_backLeft);
+     return String.format("Car (FR: %s, FL: %s, BR: %s, BL: %s)",m_frontRight,m_frontLeft,m_backRight,m_backLeft);
 
    }
 }
