@@ -6,3 +6,4 @@ This is my (Aris Yu's) Java portfolio for the course CSCI328 - Object Oriented D
 * Assignment 3: Creation of Chia.java as further class practice.
 * Practice 1: Implementation of Car.java and Wheel.java according to given specifications.
 * Exam 1: Creation of Customer.java, Item.java, and Order.java to work with a provided Main.java file according to a UML diagram.
+* Assignment 4: Working with interfaces, creating three simple implementations of IElectricBill.java. Introduction to static variables in classes.
