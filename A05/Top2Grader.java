@@ -8,6 +8,7 @@ class Top2Grader extends Grader
   
   @Override
   public double calculateGrade() {
+    Integer ary[] = getGrades();
     if (ary.length == 0)
       return 0.0;
     else if (ary.length == 1)
