@@ -2,7 +2,7 @@ public class House implements IEstimatable {
   private int m_sqrFt;
 
   public House() {
-    House(0);
+    this(0);
   }
   public House(int sqrFt) {
     m_sqrFt = sqrFt;
@@ -10,6 +10,6 @@ public class House implements IEstimatable {
   public double estimate() {
     if (m_sqrFt < 1000)
       return 97.0 * 1000;
-    return 97.0 * sqrFt;
+    return 97.0 * m_sqrFt;
   }
 }
