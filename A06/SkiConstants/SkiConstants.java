@@ -9,7 +9,7 @@ public class SkiConstants  {
       m_instance = new SkiConstants();
     return m_instance;
   }
-  private SkiConstants() {} ;
+  private SkiConstants() {};
   
   public double getBeginnerFactor() {
     return m_begFactor;
