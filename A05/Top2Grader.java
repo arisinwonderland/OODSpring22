@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Top2Grader extends Grader
 {
   private int m_curve;
@@ -14,19 +16,9 @@ class Top2Grader extends Grader
     else if (ary.length == 1)
       return ary[0];
 
-    double g1 = ary[0];
-    double g2 = ary[0];
-
-    for (int i = 1; i < ary.length; i++) {
-      if (ary[i] >= g2) {
-        if (ary[i] >= g1) {
-          g2 = g1;
-          g1 = ary[i];
-        } else {
-          g2 = ary[1];
-        }
-      }
-    }
+    Arrays.sort(ary);
+    double g1 = ary[ary.length-1];
+    double g2 = ary[ary.length-2];
 
     return (g1 + g2)/2.0;
   }
