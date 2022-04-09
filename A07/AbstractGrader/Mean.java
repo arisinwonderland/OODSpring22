@@ -4,6 +4,8 @@ public class Mean extends AbstractGrader {
   }
   
   public double grade() {
+    if (m_grades.length == 0) 
+      return 0.0;
     int sum = 0;
     for (int grade : m_grades) {
       sum += grade;
