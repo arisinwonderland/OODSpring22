@@ -5,11 +5,11 @@ This is my (Aris Yu's) Java portfolio for the course CSCI328 - Object Oriented D
 * Assignment 2 (02/11/22): Modification of Course.java for practice with ArrayLists and simple methods. Creation of Jug.java for practice with classes.
 * Assignment 3 (02/18/22): Creation of Chia.java, an extremely basic model of a Chia pet, as further class practice.
 * Assignment 4 (03/04/22): Working with interfaces, creating three simple implementations of IElectricBill.java. Introduction to static variables in classes.
-* Assignment 5 (03/11/22, completed 04/01/22): Use of inheritance and the extends keyword with Top2Grader.java (extending Grader) and SmartMove.java (extending NextMove).
+* Assignment 5 (03/11/22, submitted 04/01/22): Use of inheritance and the extends keyword with Top2Grader.java (extending Grader) and SmartMove.java (extending NextMove).
 * Assignment 6 (04/01/22): Introduction to the Singleton design pattern in SkiConstants.java and StackQueueSingleton.java. Review of the stack and queue data structures.
 ### Practice
 * Practice 1 (02/23/22): Implementation of Car.java and Wheel.java according to given specifications.
-* Practice 2 (03/23/22): Creation of the interface IEstimatable.java, its implementation House.java, and a class extending that implementation SolidConstructionHouse.java according to given specifications.
+* Practice 2 (03/23/22, submitted 04/01/22): Creation of the interface IEstimatable.java, its implementation House.java, and a class extending that implementation SolidConstructionHouse.java according to given specifications.
 ### Exams
 * Exam 1 (02/25/22): Creation of Customer.java, Item.java, and Order.java to work with a provided Main.java file according to a UML diagram.
 * Exam 2 (03/25/22): Creation of the interface IAnalyzer.java. Wrote the implementations Validator.java, RunChanges.java, and DominantRunChar.java to analyze strings consisting of + and - characters. Use of the *implements* and *extends* keywords.
