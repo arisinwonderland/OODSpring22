@@ -47,7 +47,7 @@ public class Stadium
       @Override
       public int compare(Stadium s1, Stadium s2) {
         if (s1.getKidzone() != s2.getKidzone())
-          return s1.getKidzone() ? 1 : -1;
+          return s1.getKidzone() ? -1 : 1;
         if (!s1.getCity().equals(s2.getCity())) 
           return s1.getCity().compareTo(s2.getCity());
         return s1.getName().compareTo(s2.getName());
