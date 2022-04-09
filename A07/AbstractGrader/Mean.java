@@ -6,10 +6,15 @@ public class Mean extends AbstractGrader {
   public double grade() {
     if (m_grades.length == 0) 
       return 0.0;
+    int[] grades;
+    if (m_filter == null) 
+      grades = m_grades;
+    else
+      grades = m_filter.filter(m_grades);
     int sum = 0;
-    for (int grade : m_grades) {
+    for (int grade : grades) {
       sum += grade;
     }
-    return sum/m_grades.length;
+    return (double)sum/grades.length;
   }
 }
