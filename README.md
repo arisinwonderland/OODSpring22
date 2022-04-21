@@ -11,6 +11,7 @@ This is my (Aris Yu's) Java portfolio for the course CSCI328 - Object Oriented D
 ### Practice
 * Practice 1 (02/23/22): Implementation of Car.java and Wheel.java according to given specifications.
 * Practice 2 (03/23/22, submitted 04/01/22): Creation of the interface IEstimatable.java, its implementation House.java, and a class extending that implementation SolidConstructionHouse.java according to given specifications.
+* Practice 3 (04/20/22): Practice with the Strategy design pattern with MixMaker.java and Simple.java, two subclasses of (a provided class) AbstractCombine.java. 
 ### Exams
 * Exam 1 (02/25/22): Creation of Customer.java, Item.java, and Order.java to work with a provided Main.java file according to a UML diagram.
 * Exam 2 (03/25/22): Creation of the interface IAnalyzer.java. Wrote the implementations Validator.java, RunChanges.java, and DominantRunChar.java to analyze strings consisting of + and - characters. Use of the *implements* and *extends* keywords.
