@@ -3,8 +3,8 @@ public class MixMaker extends AbstractCombine {
     final int MIN_LENGTH = Math.min(s1.length(), s2.length());
     
     String combine = "";
-    char[] c1 = this.ignoreCase(s1).toCharArray();
-    char[] c2 = this.ignoreCase(s1).toCharArray();
+    char[] c1 = s1.toCharArray();
+    char[] c2 = s2.toCharArray();
     
     for (int i = 0; i < MIN_LENGTH; i++) {
       combine += c1[i];
@@ -16,6 +16,6 @@ public class MixMaker extends AbstractCombine {
     else if (s1.length() < s2.length()) 
       combine += s2.substring(MIN_LENGTH, s2.length());
     
-    return combine;
+    return this.ignoreCase(combine);
   }
 }
