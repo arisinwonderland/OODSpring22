@@ -9,13 +9,13 @@ public class CountAlg implements IDiffAlg {
 
   private CountAlg() {};
   
-  public int convertBase (char b) {
-    switch(b) {
+  public int convertBase (char c) {
+    switch(c) {
       case 'A': 
         return 0;
-      case 'G':
-        return 1;
       case 'C':
+        return 1;
+      case 'G':
         return 2;
       case 'T':
         return 3;

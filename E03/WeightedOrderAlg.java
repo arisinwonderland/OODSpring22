@@ -14,10 +14,10 @@ public class WeightedOrderAlg extends AbstractOrderAlg {
     switch(ch1) {
       case 'A': 
         return 1;
-      case 'G':
-        return 3;
       case 'C':
         return 2;
+      case 'G':
+        return 3;
       case 'T':
         return 4;
       default:
