@@ -3,6 +3,7 @@ import java.util.*;
 public class ComplexTrip implements ITrip {
   private List<ITrip> m_trips;
   public ComplexTrip(String location) {
+    m_trips = new ArrayList<ITrip>();
     m_trips.add(new SimpleTrip(location));
   }
   
