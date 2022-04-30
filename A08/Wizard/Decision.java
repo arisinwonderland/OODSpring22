@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class Decision implements IDecision {
+  private static Scanner m_scan;
   private String m_question;
   private IDecision m_yes;
   private IDecision m_no;
@@ -33,9 +34,11 @@ public class Decision implements IDecision {
    * line of questioning should stop.
    */
   public IDecision ask() {
-    Scanner scan = new Scanner(System.in);
+    if (m_scan == null)
+      m_scan = new Scanner(System.in);
     System.out.println(m_question);
-    if (scan.next().equals("yes")) {
+    String ans = m_scan.next();
+    if (ans.equals("yes")) {
       if (m_yes != null)
         return m_yes;
       else {
