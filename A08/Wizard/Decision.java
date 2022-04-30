@@ -9,7 +9,14 @@ public class Decision implements IDecision {
   private String m_noTerminal;
 
   public Decision (String question) {
+    if (m_scan == null)
+      m_scan = new Scanner(System.in);
     m_question = question;
+  }
+
+  public static void closeScanner() {
+    if (m_scan != null)
+      m_scan.close();
   }
 
   public void setYes(IDecision yes) {
@@ -26,16 +33,7 @@ public class Decision implements IDecision {
     m_noTerminal = terminal;
   }
 
-  /**
-   * Asks the user the question that was specified when the Decision object
-   * was created.  The return value specifies how we should proceed.  If a
-   * Decision object is returned then it should be the next question asked.  If
-   * null is returned then a conclusion has been printed to the screen, and the
-   * line of questioning should stop.
-   */
   public IDecision ask() {
-    if (m_scan == null)
-      m_scan = new Scanner(System.in);
     System.out.println(m_question);
     String ans = m_scan.next();
     if (ans.equals("yes")) {
