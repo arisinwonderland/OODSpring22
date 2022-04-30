@@ -8,6 +8,7 @@ This is my (Aris Yu's) Java portfolio for the course CSCI328 - Object Oriented D
 * Assignment 5 (03/11/22, submitted 04/01/22): Use of inheritance and the extends keyword with Top2Grader (extending Grader) and SmartMove (extending NextMove).
 * Assignment 6 (04/01/22): Introduction to the Singleton design pattern in SkiConstants and StackQueueSingleton. Review of the stack and queue data structures.
 * Assignment 7 (04/08/22): Introduction to abstract classes and the Strategy design pattern, creating two grader strategies and three filters. Use of interfaces and abstract classes in tandem. Basic use of comparators with KidZone.
+* Assignment 8 (04/29/22): Introduction to Composite and Builder design patterns. Creation of a complex decision tree and a trip itinerary using Builders. Function chaining. Use of Scanners.
 ### Practice
 * Practice 1 (02/23/22): Implementation of Car and Wheel according to given specifications.
 * Practice 2 (03/23/22, submitted 04/01/22): Creation of the interface IEstimatable, its implementation House, and a class extending that implementation SolidConstructionHouse according to given specifications.
