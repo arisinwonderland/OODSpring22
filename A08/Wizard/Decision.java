@@ -7,6 +7,10 @@ public class Decision implements IDecision {
   private String m_yesTerminal;
   private String m_noTerminal;
 
+  public Decision (String question) {
+    m_question = question;
+  }
+
   public void setYes(IDecision yes) {
     m_yes = yes;
   }
@@ -46,7 +50,6 @@ public class Decision implements IDecision {
         return null;
       }
     }
-    
   }
   
 }
