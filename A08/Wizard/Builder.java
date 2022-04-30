@@ -39,5 +39,7 @@ public class Builder {
     Decision snowboardDecision = new Decision("Do you want to buy a snowboard?");
     snowboardDecision.setNo(skiDecision);
     snowboardDecision.setYes(snowboardingDecision);
+
+    return snowboardDecision;
   }
 }
