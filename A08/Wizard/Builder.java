@@ -21,7 +21,7 @@ public class Builder {
     skiingDecision.setYes(skiExpertDecision);
 
     Decision skiDecision = new Decision("Do you want to buy downhill skis?");
-    skiDecision.setNoTerminal("Try skiing someday!");
+    skiDecision.setNoTerminal("You should try skiing someday!");
     skiDecision.setYes(skiingDecision);
     
     Decision fastDecision = new Decision("Do you like to go fast?");
