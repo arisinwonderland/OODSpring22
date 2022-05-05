@@ -12,7 +12,8 @@ This is my (Aris Yu's) Java portfolio for the course CSCI328 - Object Oriented D
 ### Practice
 * Practice 1 (02/23/22): Implementation of Car and Wheel according to given specifications.
 * Practice 2 (03/23/22, submitted 04/01/22): Creation of the interface IEstimatable, its implementation House, and a class extending that implementation SolidConstructionHouse according to given specifications.
-* Practice 3 (04/20/22): Practice with the Strategy design pattern with MixMaker and Simple, two subclasses of (a provided class) AbstractCombine. 
+* Practice 3 (04/20/22): Practice with the Strategy design pattern with MixMaker and Simple, two subclasses of (a provided class) AbstractCombine.
+* Practice 4 (05/04/22): Practice with the Composite design pattern with Word, CompoundWord, and Sentence, all different combinations of the provided IWord.
 ### Exams
 * Exam 1 (02/25/22): Creation of Customer, Item, and Order to work with a provided Main file according to a UML diagram.
 * Exam 2 (03/25/22): Creation of the interface IAnalyzer. Implementation in Validator, RunChanges, and DominantRunChar to analyze strings consisting of + and - characters. Use of the *implements* and *extends* keywords.
