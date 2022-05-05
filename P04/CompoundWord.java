@@ -3,6 +3,7 @@ import java.util.*;
 public class CompoundWord implements IWord {
   private List<IWord> m_words;
   public CompoundWord(IWord w1, IWord w2) {
+    m_words = new ArrayList<IWord>();
     m_words.add(w1);
     m_words.add(w2);
   }
