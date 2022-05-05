@@ -1,8 +1,8 @@
-public class SimpleWord implements IWord
+public class Word implements IWord
 {
     private String m_word;
     
-    public SimpleWord(String word)
+    public Word(String word)
     {
         m_word = word;
     }
