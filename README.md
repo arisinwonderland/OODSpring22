@@ -1,5 +1,5 @@
 # Object Oriented Design
-This is my (Aris Yu's) Java portfolio for the course CSCI328 - Object Oriented Design at MCLA, taught by Mark Cohen. I'm taking this course in the spring semester of 2022. Associated programs are in individual folders labeled by number and project type. 
+This is my (Aris Yu's) Java portfolio for the course CSCI328 - Object Oriented Design at MCLA, taught by Mark Cohen. I took this course in the spring semester of 2022. The repo was initially private, but has been made public following my completion of the course. Associated programs are in individual folders labeled by number and project type. 
 ### Assignments
 * Assignment 1 (02/04/22): Setting up Replit and Git integration. Basic shell usage.
 * Assignment 2 (02/11/22): Modification of Course for practice with ArrayLists and simple methods. Creation of Jug for practice with classes.
